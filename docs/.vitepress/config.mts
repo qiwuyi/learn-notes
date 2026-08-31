@@ -5,6 +5,8 @@ export default defineConfig({
   description: '多主题学习笔记站：RAG、LLM、前端、更多……',
   lang: 'zh-CN',
   cleanUrls: true,
+  // GitHub Pages 子路径部署：必须与仓库名一致，否则资源路径 404
+  base: '/learn-notes/',
 
   themeConfig: {
     nav: [
