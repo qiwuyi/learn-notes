@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'RAG 专题', link: '/rag/' },
+      { text: 'Pi Agent 专题', link: '/pi/' },
       { text: '关于', link: '/about' },
     ],
 
@@ -39,6 +40,21 @@ export default defineConfig({
             { text: 'B4 · RAG 评估', link: '/rag/b4-rag-evaluation' },
             { text: 'B5 · 高级 RAG 模式', link: '/rag/b5-advanced-rag-patterns' },
             { text: 'B6 · 向量数据库对比', link: '/rag/b6-vector-databases' },
+          ],
+        },
+      ],
+      // Pi Agent 专题的侧边栏
+      '/pi/': [
+        {
+          text: 'Pi Agent Harness',
+          collapsed: false,
+          items: [
+            { text: '专题首页', link: '/pi/' },
+            { text: '① 项目总览与架构', link: '/pi/01-overview-architecture' },
+            { text: '② pi-ai：统一 LLM API', link: '/pi/02-pi-ai-unified-api' },
+            { text: '③ agent-loop：核心循环', link: '/pi/03-agent-loop' },
+            { text: '④ AgentHarness：会话/工具/压缩', link: '/pi/04-agent-harness' },
+            { text: '⑤ coding-agent：CLI 产品化', link: '/pi/05-coding-agent-cli' },
           ],
         },
       ],
