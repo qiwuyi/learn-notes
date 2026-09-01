@@ -29,6 +29,18 @@ export default defineConfig({
             { text: 'RAG 速查表', link: '/rag/glossary' },
           ],
         },
+        {
+          text: '进阶专题（B 系列）',
+          collapsed: false,
+          items: [
+            { text: 'B1 · Chunking 策略全解', link: '/rag/b1-chunking-strategies' },
+            { text: 'B2 · Embedding 模型选型', link: '/rag/b2-embedding-models' },
+            { text: 'B3 · 检索优化：Hybrid + Rerank', link: '/rag/b3-hybrid-search-rerank' },
+            { text: 'B4 · RAG 评估', link: '/rag/b4-rag-evaluation' },
+            { text: 'B5 · 高级 RAG 模式', link: '/rag/b5-advanced-rag-patterns' },
+            { text: 'B6 · 向量数据库对比', link: '/rag/b6-vector-databases' },
+          ],
+        },
       ],
       // 其他专题以后在这里加
     },
