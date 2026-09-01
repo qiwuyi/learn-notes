@@ -55,6 +55,8 @@ export default defineConfig({
             { text: '③ agent-loop：核心循环', link: '/pi/03-agent-loop' },
             { text: '④ AgentHarness：会话/工具/压缩', link: '/pi/04-agent-harness' },
             { text: '⑤ coding-agent：CLI 产品化', link: '/pi/05-coding-agent-cli' },
+            { text: '⑥ pi-tui：终端 UI 引擎', link: '/pi/06-tui-engine' },
+            { text: '⑦ 用 Pi 构建 RAG 应用', link: '/pi/07-pi-rag-app' },
           ],
         },
       ],
