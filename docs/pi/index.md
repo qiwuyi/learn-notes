@@ -34,6 +34,8 @@ title: Pi Agent Harness 专题
 | ③ | [agent-loop：智能体核心循环](/pi/03-agent-loop) | 双层循环、工具执行、流式响应 |
 | ④ | [AgentHarness：会话/工具/压缩](/pi/04-agent-harness) | 会话持久化、工具集、compaction、skills |
 | ⑤ | [coding-agent：CLI 产品化](/pi/05-coding-agent-cli) | 命令行、config、工具链、扩展机制 |
+| ⑥ | [pi-tui：终端 UI 引擎](/pi/06-tui-engine) | 组件系统、布局树、差分渲染、渲染调度 |
+| ⑦ | [用 Pi 构建 RAG 应用](/pi/07-pi-rag-app) | RAG × Pi 串联实战：RAG-as-Tool、Agentic RAG |
 
 ## 教学案例
 
