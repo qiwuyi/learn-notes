@@ -13,6 +13,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'RAG 专题', link: '/rag/' },
       { text: 'Pi Agent 专题', link: '/pi/' },
+      { text: 'AI 基础', link: '/ai/' },
       { text: '关于', link: '/about' },
     ],
 
@@ -57,6 +58,21 @@ export default defineConfig({
             { text: '⑤ coding-agent：CLI 产品化', link: '/pi/05-coding-agent-cli' },
             { text: '⑥ pi-tui：终端 UI 引擎', link: '/pi/06-tui-engine' },
             { text: '⑦ 用 Pi 构建 RAG 应用', link: '/pi/07-pi-rag-app' },
+          ],
+        },
+      ],
+      // AI 基础专题的侧边栏
+      '/ai/': [
+        {
+          text: 'AI 基础（微软课程精选）',
+          collapsed: false,
+          items: [
+            { text: '专题首页', link: '/ai/' },
+            { text: '① 课程全景与学习路径', link: '/ai/01-curriculum-map' },
+            { text: '② 神经网络基础', link: '/ai/02-neural-networks' },
+            { text: '③ Embeddings 深度理解', link: '/ai/03-embeddings' },
+            { text: '④ Transformer 深度理解', link: '/ai/04-transformer' },
+            { text: '⑤ 从语言模型到 RAG', link: '/ai/05-llm-to-rag' },
           ],
         },
       ],
