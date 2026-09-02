@@ -14,6 +14,7 @@ export default defineConfig({
       { text: 'RAG 专题', link: '/rag/' },
       { text: 'Pi Agent 专题', link: '/pi/' },
       { text: 'AI 基础', link: '/ai/' },
+      { text: '工具速查', link: '/tools/git-cheatsheet' },
       { text: '关于', link: '/about' },
     ],
 
@@ -73,6 +74,16 @@ export default defineConfig({
             { text: '③ Embeddings 深度理解', link: '/ai/03-embeddings' },
             { text: '④ Transformer 深度理解', link: '/ai/04-transformer' },
             { text: '⑤ 从语言模型到 RAG', link: '/ai/05-llm-to-rag' },
+          ],
+        },
+      ],
+      // 工具速查的侧边栏
+      '/tools/': [
+        {
+          text: '工具速查',
+          collapsed: false,
+          items: [
+            { text: 'Git 指令速查', link: '/tools/git-cheatsheet' },
           ],
         },
       ],
