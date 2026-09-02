@@ -60,6 +60,7 @@ export default defineConfig({
             { text: '⑤ coding-agent：CLI 产品化', link: '/pi/05-coding-agent-cli' },
             { text: '⑥ pi-tui：终端 UI 引擎', link: '/pi/06-tui-engine' },
             { text: '⑦ 用 Pi 构建 RAG 应用', link: '/pi/07-pi-rag-app' },
+            { text: '⑧ AI Coding 笔试实战', link: '/pi/08-ai-coding-exam' },
           ],
         },
       ],
