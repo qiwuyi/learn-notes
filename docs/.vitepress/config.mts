@@ -15,6 +15,7 @@ export default defineConfig({
       { text: 'Pi Agent 专题', link: '/pi/' },
       { text: 'AI 基础', link: '/ai/' },
       { text: '工具速查', link: '/tools/git-cheatsheet' },
+      { text: 'Go 学习站', link: 'https://golangstar.cn/' },
       { text: '关于', link: '/about' },
     ],
 
