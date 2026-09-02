@@ -36,6 +36,7 @@ title: Pi Agent Harness 专题
 | ⑤ | [coding-agent：CLI 产品化](/pi/05-coding-agent-cli) | 命令行、config、工具链、扩展机制 |
 | ⑥ | [pi-tui：终端 UI 引擎](/pi/06-tui-engine) | 组件系统、布局树、差分渲染、渲染调度 |
 | ⑦ | [用 Pi 构建 RAG 应用](/pi/07-pi-rag-app) | RAG × Pi 串联实战：RAG-as-Tool、Agentic RAG |
+| ⑧ | [AI Coding 笔试实战](/pi/08-ai-coding-exam) | 牛客官方答疑整理：人机协作、baseline、拆任务 |
 
 ## 教学案例
 
