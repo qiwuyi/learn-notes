@@ -42,3 +42,9 @@ features:
 | ~~更多专题~~ | 待你后续添加 | ⬜ 敬请期待 |
 
 > 💡 想加新专题？把资料写成 Markdown 放到 `docs/<专题名>/` 下，在 `docs/.vitepress/config.mts` 里加一个侧边栏条目即可。
+
+## 推荐资源
+
+| 站点 | 内容 |
+| ---- | ---- |
+| [⭐ 秀才的进阶之路（golangstar.cn）](https://golangstar.cn/) | Go 语言系统学习 + 后端进阶面试（缓存/数据库/消息队列/分布式）+ AI 应用开发 + Vibe Coding 实战，251 篇文章 |
