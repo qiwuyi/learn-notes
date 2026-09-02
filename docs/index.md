@@ -37,7 +37,7 @@ features:
 | 专题 | 说明 | 进度 |
 | ---- | ---- | ---- |
 | [RAG 原理课程](/rag/) | 检索增强生成原理：基础三课（A 系列）+ 进阶六篇（B 系列） | 🟢 9 篇已完成 |
-| [Pi Agent Harness](/pi/) | AI 智能体工具包：统一 LLM API、agent 循环、编程 CLI（10 万星项目） | 🟢 7 篇已完成 |
+| [Pi Agent Harness](/pi/) | AI 智能体工具包：统一 LLM API、agent 循环、编程 CLI（10 万星项目） | 🟢 8 篇已完成 |
 | [AI 基础](/ai/) | 基于微软 AI-For-Beginners：神经网络、Embedding、Transformer | 🟢 5 篇已完成 |
 | ~~更多专题~~ | 待你后续添加 | ⬜ 敬请期待 |
 
