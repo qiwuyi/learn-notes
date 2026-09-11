@@ -1,0 +1,75 @@
+/* ==========================================================
+   侧边栏收缩：导航栏右侧按钮 + 滑出动画 + 状态记忆
+   收起状态通过 <html> 上的 .sidebar-collapsed 类控制
+   ========================================================== */
+
+/* ---------- 按钮（位于导航栏右侧，搜索/外观之后） ---------- */
+.sidebar-collapse-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-left: 8px;
+  padding: 0;
+  color: var(--vp-c-text-2);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+}
+
+.sidebar-collapse-btn:hover {
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-default-soft);
+  border-color: var(--vp-c-divider);
+}
+
+.sidebar-collapse-btn:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+.sidebar-collapse-icon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.25s ease;
+}
+
+/* 收起状态：箭头翻转（← 变 →） */
+html.sidebar-collapsed .sidebar-collapse-icon {
+  transform: rotate(180deg);
+}
+
+/* 移动端隐藏该按钮：移动端侧边栏本来就是抽屉式，无需收缩 */
+@media (max-width: 959.98px) {
+  .sidebar-collapse-btn {
+    display: none;
+  }
+}
+
+/* ---------- 收缩动画（仅桌面端 ≥960px） ---------- */
+/* 内容区左右内边距跟随过渡，保证与侧边栏滑动同步 */
+.VPContent.has-sidebar {
+  transition: padding-left 0.25s ease;
+}
+
+@media (min-width: 960px) {
+  /* 收起：侧边栏滑出屏幕左侧 */
+  html.sidebar-collapsed .VPSidebar {
+    transform: translateX(-100%);
+  }
+
+  /* 收起：内容区回位，占满原侧边栏空间 */
+  html.sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: 0;
+  }
+}
+
+/* 超宽屏（≥1440px）：收起后内容重新水平居中 */
+@media (min-width: 1440px) {
+  html.sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2);
+  }
+}
