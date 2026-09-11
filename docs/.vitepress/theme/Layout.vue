@@ -37,7 +37,7 @@ function toggleSidebar() {
 
 <template>
   <Layout>
-    <template #nav-bar-content-after>
+    <template #layout-bottom>
       <button
         v-if="hasSidebar"
         class="sidebar-collapse-btn"
