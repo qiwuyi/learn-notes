@@ -14,6 +14,7 @@ export default defineConfig({
       { text: 'RAG 专题', link: '/rag/' },
       { text: 'Pi Agent 专题', link: '/pi/' },
       { text: 'AI 基础', link: '/ai/' },
+      { text: 'Agent 产品认知', link: '/agent/' },
       { text: '工具速查', link: '/tools/git-cheatsheet' },
       { text: 'Go 学习站', link: 'https://golangstar.cn/' },
       { text: '关于', link: '/about' },
@@ -76,6 +77,23 @@ export default defineConfig({
             { text: '③ Embeddings 深度理解', link: '/ai/03-embeddings' },
             { text: '④ Transformer 深度理解', link: '/ai/04-transformer' },
             { text: '⑤ 从语言模型到 RAG', link: '/ai/05-llm-to-rag' },
+          ],
+        },
+      ],
+      // Agent 产品认知专题的侧边栏
+      '/agent/': [
+        {
+          text: 'Agent 产品认知（产品二姐）',
+          collapsed: false,
+          items: [
+            { text: '专题首页', link: '/agent/' },
+            { text: '① AI 产品生态层级架构', link: '/agent/01-ecosystem-layers' },
+            { text: '② 算法 · 算力 · 数据', link: '/agent/02-algorithm-compute-data' },
+            { text: '③ 模型层：三步选型法', link: '/agent/03-model-selection' },
+            { text: '④ Agent 设计：Re-Act 与 Loop', link: '/agent/04-react-agent-loop' },
+            { text: '⑤ Agent 四大件拆解', link: '/agent/05-agent-four-pillars' },
+            { text: '⑥ Agent 测评与可观测', link: '/agent/06-evaluation-observability' },
+            { text: '⑦ 延伸阅读资源清单', link: '/agent/resources' },
           ],
         },
       ],
