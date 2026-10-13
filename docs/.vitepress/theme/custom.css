@@ -94,3 +94,29 @@ html.sidebar-collapsed .sidebar-collapse-btn {
     padding-left: calc((100vw - var(--vp-layout-max-width)) / 2);
   }
 }
+
+/* ==========================================================
+   来源与版权声明（仅 Agent 产品认知专题，由 Layout.vue 的 #doc-after 插槽注入）
+   ========================================================== */
+.agent-source-notice {
+  margin-top: 32px;
+  padding: 16px 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--vp-c-warning-1, var(--vp-c-brand-1));
+  border-radius: 8px;
+  background-color: var(--vp-c-bg-soft);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+
+.agent-source-notice__title {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.agent-source-notice p {
+  margin: 0;
+}

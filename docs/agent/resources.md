@@ -73,7 +73,7 @@ title: Agent ⑦ 延伸阅读资源清单
 
 ## 原文全部配图
 
-原文档里的 14 张配图已全部同步到本站（见各章节对应页面）：
+原文档里的 14 张配图，除课程小助手二维码外，其余 13 张已同步到本站（见各章节对应页面）：
 
 | 图 | 内容 | 所在页面 |
 | -- | ---- | -------- |
@@ -90,6 +90,7 @@ title: Agent ⑦ 延伸阅读资源清单
 | 11 | Anthropic 记忆工具 | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
 | 12 | Anthropic 工具使用 | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
 | 13 | Langfuse Academy 目录 | [⑥ 测评与可观测](/agent/06-evaluation-observability) |
-| 14 | 课程小助手二维码 | 见下方 |
 
-![扫码添加课程小助手 aigc_pmer，言e实验室 YAN-E-LAB](/agent/07-course-qr.png)
+::: info 关于课程小助手二维码
+原文此处为作者「课程小助手 aigc_pmer」的微信二维码。为尊重原作者的引流渠道、也避免二维码被公开抓取滥用，本站不转载该图；需要扫码请回[原文](https://my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh)查看。
+:::

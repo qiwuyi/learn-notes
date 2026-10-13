@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
 import { useSidebar } from 'vitepress/theme'
-import { onMounted, ref } from 'vue'
+import { useData } from 'vitepress'
+import { computed, onMounted, ref } from 'vue'
 
 const { Layout } = DefaultTheme
 const { hasSidebar } = useSidebar()
+const { page } = useData()
+
+// 仅 Agent 产品认知专题展示「来源与版权」声明：该专题正文与配图均为第三方内容
+const isAgentTopic = computed(() => page.value.relativePath.startsWith('agent/'))
 
 const collapsed = ref(false)
 const STORAGE_KEY = 'learn-notes:sidebar-collapsed'
@@ -37,6 +42,20 @@ function toggleSidebar() {
 
 <template>
   <Layout>
+    <template #doc-after>
+      <div v-if="isAgentTopic" class="agent-source-notice">
+        <p class="agent-source-notice__title">来源与版权</p>
+        <p>
+          本专题正文与配图整理自产品二姐《Agent 产品基础认知手册（精简版）》（<a
+            href="https://my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh"
+            target="_blank"
+            rel="noreferrer"
+            >飞书原文</a
+          >），版权归原作者所有；其中部分图片为 Anthropic、百度智能云、Langfuse、阿里云百炼等平台的官方文档或控制台截图，版权归各自所有者。本站仅作个人学习笔记使用，未获授权，如权利人认为不妥，联系即删。
+        </p>
+      </div>
+    </template>
+
     <template #layout-bottom>
       <button
         v-if="hasSidebar"
