@@ -12,6 +12,10 @@ title: Agent ① AI 产品生态层级架构
 
 这张图的灵感来自她和孩子一起研究土壤层级的感受——植被的分层，正好对应 AI 生态的特点，尤其是每一层对应的「劳作方式」。
 
+![AI 应用生态层级架构：左侧是「劳作方式」，中间是植被分层，右侧对应 AI 生态中的各类产品](/agent/01-ecosystem-layers.png)
+
+*图：AI 应用生态层级架构（产品二姐原图）——左侧「劳作方式」对应右侧每一层的产品形态。*
+
 ## 五层结构
 
 ```text
@@ -58,9 +62,17 @@ title: Agent ① AI 产品生态层级架构
 把 Agent 应用（草木层）和 Agent Infra（有机质层）分开看，能避免把基础设施问题当成应用问题来解决。
 :::
 
+## 简化版：冰山四层架构
+
+作者还给了更简版的一张图，用「冰山」表达同一件事——**看得见的用户层只是水面之上的一角，水下才是模型层与算法/算力/数据。**
+
+![AI 产品的四层架构：用户层、应用层、模型层、算法算力数据](/agent/01-ecosystem-simple.png)
+
+*图：AI 产品的四层架构（冰山模型）——用户层与应用层在水面之上，模型层与算法算力数据在水面之下。*
+
 ## 接下来怎么读
 
 作者建议：**从底土层（算法、算力、数据）开始，从下往上看。**
 
 - 下一篇：[② 算法 · 算力 · 数据](/agent/02-algorithm-compute-data)
-- 原文配图（层级架构图）见飞书原文：[my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh](https://my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh)
+- 原文：[my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh](https://my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh)（配图已同步到本页）

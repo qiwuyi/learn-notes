@@ -14,6 +14,10 @@ Re-Act 在 Agent 工程里有一个通俗的名字：**Agent loop**，或 Query 
 
 它的原理极其简单，正应了「大道至简」这个说法——类似 Codex 这类 Agent，就是一轮又一轮地执行着三个动作：
 
+![手绘示意图：想（Reason）→ 做（Act）→ 看结果（Observe）的循环](/agent/04-react-loop.png)
+
+*图：Re-Act 循环——想 → 做 → 看结果 → 再想，答案是在循环中逐步逼近的。*
+
 ```text
     ┌──────────────────────────────────────┐
     │                                      │
@@ -26,6 +30,10 @@ Re-Act 在 Agent 工程里有一个通俗的名字：**Agent loop**，或 Query 
 ## 一句指令背后发生了什么
 
 一句指令背后，Agent 到底做了什么？全球最优秀的 Agent——Claude、Codex——都围绕这个原理展开。
+
+![Query Loop 流程图：问 → 想（调用模型）→ 是否调用工具 → 做（调用工具）→ 看结果 → 回到想](/agent/04-query-loop.png)
+
+*图：Query Loop 完整流程，右侧是工具集——记忆工具、子 Agent 协同、Skill 管理、知识库管理等。*
 
 ```text
 用户消息

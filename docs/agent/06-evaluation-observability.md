@@ -14,6 +14,10 @@ title: Agent ⑥ Agent 测评与可观测
 
 - [Langfuse Academy](https://langfuse.com/academy)
 
+![Langfuse Academy 首页截图：左侧红框标出 Tracing / Datasets / Evaluation 等学习步骤](/agent/06-langfuse.png)
+
+*图：Langfuse Academy 的学习路径——Tracing、Monitoring、Datasets、Evaluation 一条主线走下来。*
+
 ## 安装官方 Skill，用 Codex 带你读代码
 
 推荐安装 Langfuse 官方 skill：

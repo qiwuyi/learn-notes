@@ -9,6 +9,10 @@ title: Agent ⑤ Agent 四大件拆解
 
 本篇按作者给的顺序拆解，每件都指向 Anthropic 的权威文档作为主线。
 
+![手绘示意图：Agent 四大件——Memory、知识库、工具、Skills 围绕智能体](/agent/05-four-pillars.png)
+
+*图：四大件总览——Memory（用户画像 + 做事原则）、知识库（经验·事实）、工具（内外部 + 权限/安全）、Skills（开箱即用）。*
+
 ## 1. Agent 上下文管理
 
 **核心问题**：上下文窗口有限，而 Agent 一轮轮跑下去，历史会不断膨胀。怎么装、怎么裁、怎么压？
@@ -17,17 +21,29 @@ title: Agent ⑤ Agent 四大件拆解
 
 作者的读法：**把文档里红框的内容全部看一遍。**
 
+![Anthropic 上下文管理文档截图：左侧红框标出「上下文管理 / 上下文窗口 / 编辑 / 压缩」等章节](/agent/05-context.png)
+
+*图：红框内的章节就是作者要求通读的部分。*
+
 ## 2. Agent Skills
 
 **核心问题**：怎么把「某个任务该怎么做」的知识，从提示词里抽出来，变成可复用、可按需加载的能力单元？
 
 - 权威文档：[Anthropic Agent Skills](https://platform.claude.com/docs/zh-CN/agents-and-tools/agent-skills/overview)
 
+![Anthropic Agent Skills 文档截图：左侧红框标出「技能」目录下的概览、快速开始、最佳实践、企业版技能](/agent/05-skills.png)
+
+*图：红框内的「技能」目录是必读部分。*
+
 ## 3. Agent 记忆设计
 
 **核心问题**：跨会话、跨任务，Agent 该记住什么、忘掉什么、什么时候取回？
 
 - 权威文档：[Anthropic Memory Tool](https://platform.claude.com/docs/zh-CN/agents-and-tools/tool-use/memory-tool)
+
+![Anthropic 记忆工具文档截图：左侧红框标出「记忆工具」菜单项](/agent/05-memory.png)
+
+*图：记忆工具在「工具」菜单下的位置。*
 
 ::: tip 记忆 vs 上下文 vs 知识库
 - **上下文**：这一次推理里能看到的
@@ -40,6 +56,10 @@ title: Agent ⑤ Agent 四大件拆解
 **核心问题**：Agent 的「手」——工具怎么定义、怎么描述、怎么让模型正确选择？
 
 - 权威文档：[Anthropic 工具使用概览](https://platform.claude.com/docs/zh-CN/agents-and-tools/tool-use/overview)
+
+![Anthropic 工具使用文档截图：左侧红框标出「工具使用」完整目录](/agent/05-tools.png)
+
+*图：工具使用的目录结构——工作原理、定义工具、处理调用、并行、Tool Runner、服务端工具等。*
 
 ## 5. Agent 知识库
 

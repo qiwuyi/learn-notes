@@ -70,3 +70,26 @@ title: Agent ⑦ 延伸阅读资源清单
 - 原文：《产品二姐 ✖️ 言e实验室：Agent 产品基础认知手册--精简版》
 - 链接：[my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh](https://my.feishu.cn/wiki/P5AhwGmW0io3zCkXUaAcGP78nRh)
 - 作者：产品二姐（小红书 / 即刻 / 公众号同名），极客时间《AGI 产品经理全栈指南》专栏讲师
+
+## 原文全部配图
+
+原文档里的 14 张配图已全部同步到本站（见各章节对应页面）：
+
+| 图 | 内容 | 所在页面 |
+| -- | ---- | -------- |
+| 1 | AI 应用生态层级架构 | [① 生态层级架构](/agent/01-ecosystem-layers) |
+| 2 | AI 产品四层架构（冰山） | [① 生态层级架构](/agent/01-ecosystem-layers) |
+| 3 | 百度千帆作文点评（数据影响模型） | [② 算法 · 算力 · 数据](/agent/02-algorithm-compute-data) |
+| 4 | LoRA「千层饼涂酱」原理 | [② 算法 · 算力 · 数据](/agent/02-algorithm-compute-data) |
+| 5 | 千问 Token Plan vs 按量付费速度 | [③ 模型层：三步选型法](/agent/03-model-selection) |
+| 6 | Re-Act 想→做→看 循环 | [④ Agent 设计](/agent/04-react-agent-loop) |
+| 7 | Query Loop 流程图 + 工具集 | [④ Agent 设计](/agent/04-react-agent-loop) |
+| 8 | Agent 四大件（Memory / 知识库 / 工具 / Skills） | [④ Agent 设计](/agent/04-react-agent-loop) |
+| 9 | Anthropic 上下文管理（红框重点） | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
+| 10 | Anthropic Agent Skills（红框重点） | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
+| 11 | Anthropic 记忆工具 | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
+| 12 | Anthropic 工具使用 | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
+| 13 | Langfuse Academy 目录 | [⑥ 测评与可观测](/agent/06-evaluation-observability) |
+| 14 | 课程小助手二维码 | 见下方 |
+
+![扫码添加课程小助手 aigc_pmer，言e实验室 YAN-E-LAB](/agent/07-course-qr.png)
