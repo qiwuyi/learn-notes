@@ -84,7 +84,7 @@ title: Agent ⑦ 延伸阅读资源清单
 | 5 | 千问 Token Plan vs 按量付费速度 | [③ 模型层：三步选型法](/agent/03-model-selection) |
 | 6 | Re-Act 想→做→看 循环 | [④ Agent 设计](/agent/04-react-agent-loop) |
 | 7 | Query Loop 流程图 + 工具集 | [④ Agent 设计](/agent/04-react-agent-loop) |
-| 8 | Agent 四大件（Memory / 知识库 / 工具 / Skills） | [④ Agent 设计](/agent/04-react-agent-loop) |
+| 8 | Agent 四大件（Memory / 知识库 / 工具 / Skills） | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
 | 9 | Anthropic 上下文管理（红框重点） | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
 | 10 | Anthropic Agent Skills（红框重点） | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
 | 11 | Anthropic 记忆工具 | [⑤ 四大件拆解](/agent/05-agent-four-pillars) |
