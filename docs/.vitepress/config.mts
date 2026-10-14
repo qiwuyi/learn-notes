@@ -15,6 +15,7 @@ export default defineConfig({
       { text: 'Pi Agent 专题', link: '/pi/' },
       { text: 'AI 基础', link: '/ai/' },
       { text: 'Agent 产品认知', link: '/agent/' },
+      { text: '孙宇晨机器人观点', link: '/sun/' },
       { text: '工具速查', link: '/tools/git-cheatsheet' },
       { text: 'Go 学习站', link: 'https://golangstar.cn/' },
       { text: '关于', link: '/about' },
@@ -94,6 +95,21 @@ export default defineConfig({
             { text: '⑤ Agent 四大件拆解', link: '/agent/05-agent-four-pillars' },
             { text: '⑥ Agent 测评与可观测', link: '/agent/06-evaluation-observability' },
             { text: '⑦ 延伸阅读资源清单', link: '/agent/resources' },
+          ],
+        },
+      ],
+      // 孙宇晨机器人观点专题的侧边栏
+      '/sun/': [
+        {
+          text: '孙哥对机器人的观点（深度解读）',
+          collapsed: false,
+          items: [
+            { text: '专题首页 · ①②', link: '/sun/' },
+            { text: '③ 核心命题：为什么是机器人', link: '/sun/01-thesis' },
+            { text: '④⑤ 四大赛道与投资方法', link: '/sun/02-tracks' },
+            { text: '⑥⑦ 区块链落点与安全伦理', link: '/sun/03-chain' },
+            { text: '⑧⑨ 小米建议与时间线', link: '/sun/04-xiaomi-timeline' },
+            { text: '⑩⑪⑫ 核实·批判·复述', link: '/sun/05-verification' },
           ],
         },
       ],
