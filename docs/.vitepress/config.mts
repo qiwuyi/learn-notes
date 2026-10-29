@@ -84,6 +84,13 @@ export default defineConfig({
       // Agent 产品认知专题的侧边栏
       '/agent/': [
         {
+          text: '面试学习',
+          collapsed: false,
+          items: [
+            { text: 'Agent 面经与解析 · 16 题', link: '/agent/interview-notes' },
+          ],
+        },
+        {
           text: 'Agent 产品认知（产品二姐）',
           collapsed: false,
           items: [
