@@ -15,6 +15,7 @@ export default defineConfig({
       { text: 'Pi Agent 专题', link: '/pi/' },
       { text: 'AI 基础', link: '/ai/' },
       { text: 'Agent 产品认知', link: '/agent/' },
+      { text: '每天十分钟', link: '/growth/' },
       { text: '孙宇晨机器人观点', link: '/sun/' },
       { text: '工具速查', link: '/tools/git-cheatsheet' },
       { text: 'Go 学习站', link: 'https://golangstar.cn/' },
@@ -22,6 +23,9 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/growth/': [
+        { text: '每天十分钟', items: [{ text: '五日学习与打卡', link: '/growth/' }] },
+      ],
       // RAG 专题的侧边栏
       '/rag/': [
         {
