@@ -62,6 +62,7 @@ import HabitTracker from './HabitTracker.vue'
 
 ## 以后想换口味
 
+- **英文播客与频道：** [边学英语边拓展知识](/growth/english)，从工作、商业和科技话题中选一段。
 - **听演讲：** [TED 演讲](https://www.ted.com/talks)，可以先从上面的表达主题开始。
 - **听播客：** [小宇宙](https://www.xiaoyuzhoufm.com/)，可搜索《声东击西》《文化有限》等节目。
 - **看纪录片：** [《如果国宝会说话》](https://tv.cctv.com/2017/12/21/VIDAWE377ZDQH69msDk6KUle171221.shtml)，每次选一集。

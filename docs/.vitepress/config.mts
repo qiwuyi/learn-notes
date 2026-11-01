@@ -24,7 +24,10 @@ export default defineConfig({
 
     sidebar: {
       '/growth/': [
-        { text: '每天十分钟', items: [{ text: '五日学习与打卡', link: '/growth/' }] },
+        { text: '每天十分钟', items: [
+          { text: '五日学习与打卡', link: '/growth/' },
+          { text: '英语与知识', link: '/growth/english' },
+        ] },
       ],
       // RAG 专题的侧边栏
       '/rag/': [
